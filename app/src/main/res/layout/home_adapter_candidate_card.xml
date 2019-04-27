@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/home_adapter_id_candidate_layout"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="10dp"
+        android:padding="10dp"
+        android:background="#A21111"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <info.abdolahi.CircularMusicProgressBar
+                app:border_color="@color/colorPrimary"
+                app:progress_color="@color/colorPrimary"
+                app:srcCompat="@drawable/ic_user"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/home_adapter_id_candidate_img"
+                android:layout_width="140dp"
+                android:layout_height="140dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"/>
+        <TextView
+                android:id="@+id/home_adapter_id_candidate_id"
+                tools:text="1"
+                android:textSize="30sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"/>
+        <TextView
+                android:layout_marginTop="8dp"
+                android:id="@+id/home_adapter_id_candidate_name"
+                tools:text="Horeph"
+                android:textSize="24sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/home_adapter_id_candidate_id" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"/>
+        <TextView
+                android:id="@+id/home_adapter_id_candidate_class"
+                tools:text="XI TKJ 1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/home_adapter_id_candidate_name"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" android:layout_marginTop="8dp"/>
+        <Button
+                android:id="@+id/home_adapter_id_candidate_visimisi"
+                android:text="Visi Misi"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/home_adapter_id_candidate_class"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" android:layout_marginTop="8dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

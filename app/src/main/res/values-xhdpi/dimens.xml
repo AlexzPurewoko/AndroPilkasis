@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oauthlogin_dimen_icon_marginTop">60dp</dimen>
+    <dimen name="oauthlogin_dimen_title_marginTop">15dp</dimen>
+    <dimen name="oauthlogin_dimen_title_textSize">36sp</dimen>
+    <dimen name="oauthlogin_dimen_username_marginELSR">36dp</dimen>
+    <dimen name="oauthlogin_dimen_username_marginTop">40dp</dimen>
+    <dimen name="oauthlogin_dimen_password_marginTop">16dp</dimen>
+    <dimen name="oauthlogin_dimen_loginbtn_marginTop">40dp</dimen>
+    <dimen name="oauthlogin_dimen_loginbtn_marginELSR">8dp</dimen>
+    <dimen name="oauthlogin_icon_hw">200dp</dimen>
+</resources>
